@@ -2,7 +2,7 @@ import os
 from PIL import Image, ImageDraw
 
 os.makedirs("figures", exist_ok=True)
-search_dirs = [".", "figures", "raw_images", "data"]
+search_dirs = [".", "vouchers", "figures", "raw_images", "data"]
 
 def find_img(name):
     for d in search_dirs:
