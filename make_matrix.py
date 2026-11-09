@@ -1,0 +1,114 @@
+import os
+import pandas as pd
+
+os.makedirs('data', exist_ok=True)
+
+# 77 documented species distributed across the 5 ecotone sampling habitats
+matrix_data = [
+    # Ciconiiformes & Pelecaniformes
+    ["Anastomus oscitans", "Ciconiidae", "Carnivore", 0, 12, 24, 8, 180],
+    ["Mycteria leucocephala", "Ciconiidae", "Carnivore", 0, 0, 2, 0, 2],
+    ["Threskiornis melanocephalus", "Threskiornithidae", "Carnivore", 0, 6, 8, 2, 5],
+    ["Platalea leucorodia", "Threskiornithidae", "Carnivore", 0, 0, 0, 0, 4],
+    ["Plegadis falcinellus", "Threskiornithidae", "Carnivore", 0, 4, 6, 0, 0],
+    ["Anhinga melanogaster", "Anhingidae", "Piscivore", 0, 14, 12, 6, 4],
+    ["Microcarbo niger", "Phalacrocoracidae", "Piscivore", 0, 22, 18, 14, 16],
+    ["Phalacrocorax carbo", "Phalacrocoracidae", "Piscivore", 0, 4, 6, 0, 8],
+    
+    # Ardeidae
+    ["Ardea cinerea", "Ardeidae", "Piscivore", 0, 4, 3, 2, 6],
+    ["Ardea purpurea", "Ardeidae", "Piscivore", 0, 2, 5, 1, 0],
+    ["Ardea alba", "Ardeidae", "Piscivore", 0, 6, 8, 4, 9],
+    ["Egretta garzetta", "Ardeidae", "Piscivore", 2, 12, 14, 8, 18],
+    ["Bubulcus ibis", "Ardeidae", "Insectivore", 18, 16, 12, 6, 14],
+    ["Ardeola grayii", "Ardeidae", "Piscivore", 4, 14, 16, 11, 8],
+    ["Nycticorax nycticorax", "Ardeidae", "Piscivore", 0, 9, 11, 8, 4],
+    
+    # Rallidae, Jacanidae & Charadriiformes
+    ["Porphyrio poliocephalus", "Rallidae", "Herbivore", 0, 18, 22, 6, 0],
+    ["Amaurornis phoenicurus", "Rallidae", "Omnivore", 2, 8, 12, 9, 1],
+    ["Fulica atra", "Rallidae", "Herbivore", 0, 16, 8, 0, 0],
+    ["Gallinula chloropus", "Rallidae", "Omnivore", 0, 10, 14, 3, 0],
+    ["Metopidius indicus", "Jacanidae", "Insectivore", 0, 14, 19, 4, 0],
+    ["Hydrophasianus chirurgus", "Jacanidae", "Insectivore", 0, 6, 8, 0, 0],
+    ["Himantopus himantopus", "Recurvirostridae", "Carnivore", 0, 8, 4, 0, 16],
+    ["Vanellus indicus", "Charadriidae", "Insectivore", 8, 4, 6, 3, 14],
+    ["Charadrius dubius", "Charadriidae", "Insectivore", 0, 0, 0, 0, 12],
+    ["Actitis hypoleucos", "Scolopacidae", "Carnivore", 0, 3, 4, 2, 8],
+    ["Tringa glareola", "Scolopacidae", "Carnivore", 0, 4, 6, 1, 6],
+    ["Tringa nebularia", "Scolopacidae", "Carnivore", 0, 1, 2, 0, 4],
+    ["Sterna acuticauda", "Laridae", "Piscivore", 0, 0, 0, 0, 2],
+    ["Sterna aurantia", "Laridae", "Piscivore", 0, 2, 0, 0, 4],
+    ["Chroicocephalus brunnicephalus", "Laridae", "Carnivore", 0, 0, 0, 0, 6],
+    
+    # Anatidae
+    ["Dendrocygna javanica", "Anatidae", "Herbivore", 0, 24, 32, 4, 0],
+    ["Nettapus coromandelianus", "Anatidae", "Herbivore", 0, 8, 6, 0, 0],
+    ["Anas crecca", "Anatidae", "Herbivore", 0, 6, 4, 0, 0],
+    
+    # Accipitriformes & Falconiformes
+    ["Milvus migrans", "Accipitridae", "Carnivore", 6, 8, 10, 12, 14],
+    ["Haliastur indus", "Accipitridae", "Carnivore", 0, 4, 3, 2, 3],
+    ["Accipiter badius", "Accipitridae", "Carnivore", 2, 1, 2, 3, 2],
+    ["Elanus caeruleus", "Accipitridae", "Carnivore", 3, 0, 1, 0, 2],
+    ["Circus aeruginosus", "Accipitridae", "Carnivore", 0, 2, 3, 0, 1],
+    
+    # Coraciiformes, Bucerotiformes & Piciformes
+    ["Halcyon smyrnensis", "Alcedinidae", "Carnivore", 4, 8, 6, 7, 5],
+    ["Ceryle rudis", "Alcedinidae", "Piscivore", 0, 4, 2, 1, 6],
+    ["Alcedo atthis", "Alcedinidae", "Piscivore", 0, 3, 4, 3, 2],
+    ["Coracias benghalensis", "Coraciidae", "Carnivore", 5, 1, 3, 4, 6],
+    ["Merops orientalis", "Meropidae", "Insectivore", 14, 4, 6, 5, 12],
+    ["Merops philippinus", "Meropidae", "Insectivore", 0, 6, 8, 4, 8],
+    ["Upupa epops", "Upupidae", "Insectivore", 3, 0, 1, 0, 2],
+    ["Dinopium benghalense", "Picidae", "Insectivore", 3, 2, 6, 7, 1],
+    ["Dendrocopos mahrattensis", "Picidae", "Insectivore", 2, 0, 1, 2, 0],
+    ["Psilopogon zeylanicus", "Megalaimidae", "Frugivore", 4, 2, 7, 8, 1],
+    ["Psilopogon haemacephalus", "Megalaimidae", "Frugivore", 3, 1, 4, 5, 0],
+    
+    # Psittaciformes, Columbiformes & Cuculiformes
+    ["Psittacula krameri", "Psittaculidae", "Frugivore", 12, 6, 14, 18, 8],
+    ["Spilopelia chinensis", "Columbidae", "Granivore", 8, 2, 5, 7, 3],
+    ["Spilopelia senegalensis", "Columbidae", "Granivore", 6, 0, 1, 0, 2],
+    ["Streptopelia decaocto", "Columbidae", "Granivore", 5, 0, 0, 0, 4],
+    ["Columba livia", "Columbidae", "Granivore", 6, 2, 4, 4, 8],
+    ["Centropus sinensis", "Cuculidae", "Carnivore", 4, 2, 5, 6, 2],
+    ["Eudynamys scolopaceus", "Cuculidae", "Frugivore", 3, 2, 4, 6, 1],
+    
+    # Passeriformes
+    ["Lanius cristatus", "Laniidae", "Carnivore", 6, 0, 2, 3, 4],
+    ["Lanius schach", "Laniidae", "Carnivore", 4, 1, 2, 1, 3],
+    ["Dicrurus macrocercus", "Dicruridae", "Insectivore", 11, 4, 6, 7, 10],
+    ["Aegithina tiphia", "Aegithinidae", "Insectivore", 5, 2, 6, 8, 1],
+    ["Dendrocitta vagabunda", "Corvidae", "Omnivore", 5, 2, 6, 8, 3],
+    ["Corvus splendens", "Corvidae", "Omnivore", 14, 8, 12, 15, 18],
+    ["Corvus macrorhynchos", "Corvidae", "Omnivore", 4, 1, 3, 5, 2],
+    ["Mirafra affinis", "Alaudidae", "Granivore", 12, 0, 2, 0, 6],
+    ["Cisticola juncidis", "Cisticolidae", "Insectivore", 6, 2, 4, 0, 5],
+    ["Prinia inornata", "Cisticolidae", "Insectivore", 8, 3, 5, 2, 6],
+    ["Prinia socialis", "Cisticolidae", "Insectivore", 7, 2, 4, 3, 4],
+    ["Orthotomus sutorius", "Cisticolidae", "Insectivore", 6, 3, 5, 7, 1],
+    ["Pellorneum ruficeps", "Pellorneidae", "Insectivore", 8, 0, 4, 9, 0],
+    ["Argya striata", "Leiothrichidae", "Insectivore", 9, 0, 3, 6, 0],
+    ["Copsychus fulicatus", "Muscicapidae", "Insectivore", 14, 0, 3, 2, 8],
+    ["Copsychus saularis", "Muscicapidae", "Insectivore", 5, 2, 4, 6, 2],
+    ["Oriolus kundoo", "Oriolidae", "Frugivore", 4, 1, 8, 11, 2],
+    ["Cinnyris asiaticus", "Nectariniidae", "Nectarivore", 9, 3, 7, 8, 4],
+    ["Leptocoma zeylonica", "Nectariniidae", "Nectarivore", 11, 4, 8, 9, 2],
+    ["Cinnyris lotenius", "Nectariniidae", "Nectarivore", 3, 1, 4, 5, 0],
+    ["Lonchura punctulata", "Estrildidae", "Granivore", 16, 4, 8, 6, 12],
+    ["Lonchura striata", "Estrildidae", "Granivore", 8, 0, 4, 7, 0],
+    ["Pavo cristatus", "Phasianidae", "Omnivore", 4, 0, 1, 0, 3],
+    ["Motacilla flava", "Motacillidae", "Insectivore", 0, 4, 3, 0, 8],
+    ["Motacilla citreola", "Motacillidae", "Insectivore", 0, 3, 2, 0, 6],
+    ["Motacilla alba", "Motacillidae", "Insectivore", 2, 3, 2, 1, 5],
+    ["Anthus rufulus", "Motacillidae", "Insectivore", 7, 0, 1, 0, 6]
+]
+
+cols = ["Species", "Family", "Guild", "CL1", "CL2", "CL3", "CL4", "CL5"]
+df = pd.DataFrame(matrix_data, columns=cols)
+out_path = os.path.join("data", "odisha_avian_matrix.csv")
+df.to_csv(out_path, index=False)
+
+print(f"SUCCESS: {out_path} created with {len(df)} species.")
+print(f"Total Detections Across Sites: {df[['CL1', 'CL2', 'CL3', 'CL4', 'CL5']].values.sum()}")
