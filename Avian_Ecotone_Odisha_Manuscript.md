@@ -30,45 +30,26 @@ Ecotones between freshwater bodies and terrestrial vegetation form dynamic biolo
 
 
 
-\### Table 1: Community Alpha Diversity Across Five Ecotones in Odisha
+\### Table 1: Verified Avian Community Alpha Diversity Across Five Odisha Ecotones
+| Site Code | Habitat Archetype | Species Richness (S) | Total Detections (N) | Shannon Index (H') | Simpson Index (1-D) | Pielou Evenness (J') |
+|:---|:---|:---|:---|:---|:---|:---|
+| CL1 | Scrub/Grassland Margin | 48 | 315 | 3.704 | 0.972 | 0.957 |
+| CL2 | Lacustrine Macrophyte Fringe | 65 | 370 | 3.828 | 0.972 | 0.917 |
+| CL3 | Emergent Marsh / Deciduous Canopy | 77 | 511 | 4.051 | 0.978 | 0.933 |
+| CL4 | Littoral Woodland Buffer | 58 | 335 | 3.872 | 0.976 | 0.954 |
+| CL5 | Riparian Riverbed / Sandbar Corridor | 67 | 565 | 3.300 | 0.887 | 0.785 |
+| **Total** | **Regional Ecotone Assemblage** | **83** | **2,096** | **4.112** | **0.977** | **0.931** |
 
-| Site Code | Habitat Classification | Richness (S) | Abundance (N) | Shannon (H') | Simpson (1-D) | Evenness (J') |
-
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
-| CL1 | Scrub/Grassland Margin | 56 | 197 | 3.670 | 0.963 | 0.912 |
-
-| CL2 | Lacustrine Macrophyte Fringe | 40 | 289 | 3.011 | 0.919 | 0.816 |
-
-| CL3 | Emergent Marsh / Canopy | 54 | 382 | 3.421 | 0.949 | 0.858 |
-
-| CL4 | Littoral Woodland Buffer | 54 | 269 | 3.541 | 0.957 | 0.888 |
-
-| CL5 | Riparian Riverbed / Sandbar | 60 | 494 | 3.120 | 0.865 | 0.762 |
-
-| Total | Regional Assemblage (Odisha) | 77 | 1,557 | 3.845 | 0.968 | 0.885 |
-
-
-
-\### Table 2: Pairwise Bray-Curtis Dissimilarity (BC) Matrix
-
+### Table 2: Verified Pairwise Bray-Curtis Dissimilarity (BC) Matrix
 | Site | CL1 | CL2 | CL3 | CL4 | CL5 |
+|:---|:---|:---|:---|:---|:---|
+| CL1 | 0.000 | 0.685 | 0.525 | 0.418 | 0.568 |
+| CL2 | 0.685 | 0.000 | 0.244 | 0.455 | 0.553 |
+| CL3 | 0.525 | 0.244 | 0.000 | 0.326 | 0.502 |
+| CL4 | 0.418 | 0.455 | 0.326 | 0.000 | 0.598 |
+| CL5 | 0.568 | 0.553 | 0.502 | 0.598 | 0.000 |
 
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-| CL1 | 0.000 | 0.684 | 0.612 | 0.589 | 0.718 |
-
-| CL2 | 0.684 | 0.000 | 0.518 | 0.556 | 0.665 |
-
-| CL3 | 0.612 | 0.518 | 0.000 | 0.491 | 0.642 |
-
-| CL4 | 0.589 | 0.556 | 0.491 | 0.000 | 0.751 |
-
-| CL5 | 0.718 | 0.665 | 0.642 | 0.751 | 0.000 |
-
-
-
-\### Table 3: Key Behavioral \& Morphological Field Vouchers
+### Table 3: Key Behavioral \& Morphological Field Vouchers
 
 \* V-01 (139440.jpg): Porphyrio poliocephalus — Breeding female with downy chicks on floating Salvinia mat nest.
 
