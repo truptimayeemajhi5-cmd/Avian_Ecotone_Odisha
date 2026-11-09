@@ -8,7 +8,7 @@
 
 \*\*Correspondence:\*\* truptimayeemajhi5@gmail.com
 
-\*\*Dataset \& Code Repository:\*\* github.com/truptimayee-cmd/Avian\_Ecotone\_Odisha
+\*\*Dataset \& Code Repository:\*\* github.com/truptimayeemajhi5-cmd/Avian\_Ecotone\_Odisha
 
 
 
