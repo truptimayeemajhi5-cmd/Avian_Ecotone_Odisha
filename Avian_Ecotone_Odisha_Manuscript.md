@@ -49,29 +49,18 @@ Ecotones between freshwater bodies and terrestrial vegetation form dynamic biolo
 | CL4 | 0.418 | 0.455 | 0.326 | 0.000 | 0.598 |
 | CL5 | 0.568 | 0.553 | 0.502 | 0.598 | 0.000 |
 
-### Table 3: Key Behavioral \& Morphological Field Vouchers
-
-\* V-01 (139440.jpg): Porphyrio poliocephalus — Breeding female with downy chicks on floating Salvinia mat nest.
-
-\* V-02 (139457.jpg): Halcyon smyrnensis — Trophic subsidy; adult with captured frog prey on emergent deadwood snag.
-
-\* V-03 (139450.jpg): Metopidius indicus — Macrophyte foraging on Salvinia carpet using elongated toes.
-
-\* V-04 (139428.jpg): Nycticorax nycticorax — Juvenile plumage recruitment on quiet canal snag.
-
-\* V-05 (139478.jpg): Mirafra affinis — Parental provisioning with orthopteran prey item on gravel margin.
-
-\* V-06 (139480.jpg): Pellorneum ruficeps — Shaded understory pair engaged in social allopreening.
-
-\* V-07 (139459.jpg): Dinopium benghalense — Trunk bark-gleaning insectivore using zygodactyl feet.
-
-\* V-08 (139444.jpg): Oriolus kundoo — Deciduous canopy foliage foraging pair.
-
-\* V-10 (139418.jpg): Accipiter badius — Apex raptor vigilance perch scanning ecotonal border.
-
-\* V-13 (139476.jpg): Copsychus fulicatus — Territorial display on lateritic boulder pinnacle.
-
-\* V-19 (139355.jpg): Lonchura punctulata — Courtship billing display on thorny boundary branch.
-
-\*
+### Table 3: Key Behavioral and Morphological Field Vouchers
+| Voucher ID | Image File | Species | Habitat Ecotone | Ecological & Behavioral Observation |
+|:---|:---|:---|:---|:---|
+| V-01 | 139440.jpg | *Porphyrio poliocephalus* | Lacustrine Macrophyte Fringe | Breeding female with downy chicks on floating Salvinia mat nest |
+| V-02 | 139457.jpg | *Halcyon smyrnensis* | Emergent Marsh Interface | Trophic subsidy: adult with captured frog prey on emergent deadwood snag |
+| V-03 | 139450.jpg | *Metopidius indicus* | Lacustrine Macrophyte Fringe | Macrophyte foraging on Salvinia carpet using elongated toes |
+| V-04 | 139428.jpg | *Nycticorax nycticorax* | Littoral Woodland Buffer | Juvenile plumage recruitment on quiet canal snag |
+| V-05 | 139478.jpg | *Mirafra affinis* | Scrub/Grassland Margin | Parental provisioning with orthopteran prey item on gravel margin |
+| V-06 | 139480.jpg | *Pellorneum ruficeps* | Littoral Woodland Buffer | Shaded understory pair engaged in social allopreening |
+| V-07 | 139459.jpg | *Dinopium benghalense* | Littoral Woodland Buffer | Trunk bark-gleaning insectivore using zygodactyl feet |
+| V-08 | 139444.jpg | *Oriolus kundoo* | Deciduous Canopy Interface | Deciduous canopy foliage foraging pair |
+| V-10 | 139418.jpg | *Accipiter badius* | Woodland-Scrub Ecotone | Apex raptor vigilance perch scanning ecotonal border |
+| V-13 | 139476.jpg | *Copsychus fulicatus* | Scrub/Grassland Margin | Territorial display on lateritic boulder pinnacle |
+| V-19 | 139355.jpg | *Lonchura punctulata* | Riparian Sandbar Corridor | Courtship billing display on thorny boundary branch |
 
