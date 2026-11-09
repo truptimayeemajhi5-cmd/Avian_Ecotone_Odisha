@@ -12,12 +12,12 @@ def find_img(name):
     return None
 
 plate_1 = [
-    ("139440.jpg", "A. Grey-headed Swamphen (nest & chicks)"),
-    ("139457.jpg", "B. White-throated Kingfisher (frog prey)"),
-    ("139450.jpg", "C. Bronze-winged Jacana (floating mats)"),
-    ("139428.jpg", "D. Black-crowned Night Heron (juvenile)"),
-    ("139476.jpg", "E. Indian Robin (male territorial perch)"),
-    ("139471.jpg", "F. Indian Robin (female edge foraging)")
+    ("139440.jpg", "A. Lesser Whistling Duck (marsh pair)"),
+    ("139457.jpg", "B. Common Kingfisher (perch vigilance)"),
+    ("139450.jpg", "C. Pheasant-tailed Jacana (breeding plumage)"),
+    ("139428.jpg", "D. Striated Heron (juvenile perch)"),
+    ("139476.jpg", "E. Wader (water-margin flight landing)"),
+    ("139471.jpg", "F. Plain Prinia (reeds foraging)")
 ]
 
 plate_2 = [
