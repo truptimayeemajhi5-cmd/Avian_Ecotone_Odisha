@@ -21,15 +21,15 @@ plate_1 = [
 ]
 
 plate_2 = [
-    ("139418.jpg", "A. Shikra (apex ambush vigilance)"),
-    ("139395.jpg", "B. Black Kites (canopy roosting pair)"),
-    ("139459.jpg", "C. Black-rumped Flameback (trunk bark-gleaner)"),
-    ("139480.jpg", "D. Puff-throated Babbler (sub-canopy pair)"),
-    ("139444.jpg", "E. Indian Golden Oriole (foliage pair)"),
-    ("139478.jpg", "F. Jerdon's Bushlark (orthopteran prey)"),
+    ("139418.jpg", "A. Long-tailed Shrike (perch vigil)"),
+    ("139395.jpg", "B. Glossy Ibis (marsh margin foraging)"),
+    ("139459.jpg", "C. White-throated Kingfisher (driftwood perch with prey)"),
+    ("139480.jpg", "D. Babbler pair (sub-canopy tangle)"),
+    ("139444.jpg", "E. Asian Koel (female canopy perch)"),
+    ("139478.jpg", "F. Woodpecker (slender branch foraging)"),
     ("139355.jpg", "G. Scaly-breasted Munia (courtship display)"),
-    ("139462.jpg", "H. Loten's Sunbird (canopy nectivory)"),
-    ("139407.jpg", "I. Purple-rumped Sunbird (female dimorphism)")
+    ("139462.jpg", "H. Rose-ringed Parakeet (canopy foliage)"),
+    ("139407.jpg", "I. White-throated Kingfisher (perch vigilance)")
 ]
 
 def gen_plate(specs, cols, cw, ch, filename, title):
