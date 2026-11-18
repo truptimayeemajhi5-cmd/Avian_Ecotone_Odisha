@@ -172,12 +172,30 @@ avian_pub = (
 story.append(Paragraph(avian_pub, bullet_style))
 story.append(Paragraph("• Majhi, T. (2024). The Unspoken Curriculum: Childhood, Masculinity, and the Making of Modern India. <i>Youth Ki Awaaz</i>.", bullet_style))
 
-# --- References ---
+# --- ACADEMIC REFERENCES ---
 story.append(Paragraph("ACADEMIC REFERENCES", sec_style))
+
 ref_data = [
-    ["Capt. (Dr.) Kishor Kumar Prusty", "Associate NCC Officer & Faculty, Higher Education Dept. / Utkal University, Odisha"],
-    ["Email: kishorprusty530@gmail.com", "Mobile: +91 98537 57288"]
+    [
+        Paragraph(
+            "<b>Dr. Jyotsnarani Pradhan</b><br/>"
+            "Assistant Professor (Stage-II), Dept. of Biotechnology<br/>"
+            "Utkal University, Vani Vihar, Bhubaneswar, Odisha<br/>"
+            "Email: jyotsna.biotech@utkaluniversity.ac.in<br/>"
+            "Mobile: +91 98534 1196",
+            body_style
+        ),
+        Paragraph(
+            "<b>Dr. Sanatan Majhi</b><br/>"
+            "Assistant Professor, Dept. of Biotechnology<br/>"
+            "Utkal University, Vani Vihar, Bhubaneswar, Odisha<br/>"
+            "Email: sanatan.biotech@utkaluniversity.ac.in<br/>"
+            "Mobile: +91 93379 40244",
+            body_style
+        )
+    ]
 ]
+
 ref_table = Table(ref_data, colWidths=[200, 332])
 ref_table.setStyle(TableStyle([
     ("FONTNAME", (0,0), (-1,-1), "Helvetica"),
