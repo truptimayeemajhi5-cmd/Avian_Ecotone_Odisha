@@ -1,84 +1,102 @@
-Species,Family,Guild,CL1,CL2,CL3,CL4,CL5
-Anastomus oscitans,Ciconiidae,Carnivore,0,12,24,8,180
-Mycteria leucocephala,Ciconiidae,Carnivore,0,0,2,0,2
-Threskiornis melanocephalus,Threskiornithidae,Carnivore,0,6,8,2,5
-Platalea leucorodia,Threskiornithidae,Carnivore,0,0,0,0,4
-Plegadis falcinellus,Threskiornithidae,Carnivore,0,4,6,0,0
-Anhinga melanogaster,Anhingidae,Piscivore,0,14,12,6,4
-Microcarbo niger,Phalacrocoracidae,Piscivore,0,22,18,14,16
-Phalacrocorax carbo,Phalacrocoracidae,Piscivore,0,4,6,0,8
-Ardea cinerea,Ardeidae,Piscivore,0,4,3,2,6
-Ardea purpurea,Ardeidae,Piscivore,0,2,5,1,0
-Ardea alba,Ardeidae,Piscivore,0,6,8,4,9
-Egretta garzetta,Ardeidae,Piscivore,2,12,14,8,18
-Bubulcus ibis,Ardeidae,Insectivore,18,16,12,6,14
-Ardeola grayii,Ardeidae,Piscivore,4,14,16,11,8
-Nycticorax nycticorax,Ardeidae,Piscivore,0,9,11,8,4
-Porphyrio poliocephalus,Rallidae,Herbivore,0,18,22,6,0
-Amaurornis phoenicurus,Rallidae,Omnivore,2,8,12,9,1
-Fulica atra,Rallidae,Herbivore,0,16,8,0,0
-Gallinula chloropus,Rallidae,Omnivore,0,10,14,3,0
-Metopidius indicus,Jacanidae,Insectivore,0,14,19,4,0
-Hydrophasianus chirurgus,Jacanidae,Insectivore,0,6,8,0,0
-Himantopus himantopus,Recurvirostridae,Carnivore,0,8,4,0,16
-Vanellus indicus,Charadriidae,Insectivore,8,4,6,3,14
-Charadrius dubius,Charadriidae,Insectivore,0,0,0,0,12
-Actitis hypoleucos,Scolopacidae,Carnivore,0,3,4,2,8
-Tringa glareola,Scolopacidae,Carnivore,0,4,6,1,6
-Tringa nebularia,Scolopacidae,Carnivore,0,1,2,0,4
-Sterna acuticauda,Laridae,Piscivore,0,0,0,0,2
-Sterna aurantia,Laridae,Piscivore,0,2,0,0,4
-Chroicocephalus brunnicephalus,Laridae,Carnivore,0,0,0,0,6
-Dendrocygna javanica,Anatidae,Herbivore,0,24,32,4,0
-Nettapus coromandelianus,Anatidae,Herbivore,0,8,6,0,0
-Anas crecca,Anatidae,Herbivore,0,6,4,0,0
-Milvus migrans,Accipitridae,Carnivore,6,8,10,12,14
-Haliastur indus,Accipitridae,Carnivore,0,4,3,2,3
-Accipiter badius,Accipitridae,Carnivore,2,1,2,3,2
-Elanus caeruleus,Accipitridae,Carnivore,3,0,1,0,2
-Circus aeruginosus,Accipitridae,Carnivore,0,2,3,0,1
-Halcyon smyrnensis,Alcedinidae,Carnivore,4,8,6,7,5
-Ceryle rudis,Alcedinidae,Piscivore,0,4,2,1,6
-Alcedo atthis,Alcedinidae,Piscivore,0,3,4,3,2
-Coracias benghalensis,Coraciidae,Carnivore,5,1,3,4,6
-Merops orientalis,Meropidae,Insectivore,14,4,6,5,12
-Merops philippinus,Meropidae,Insectivore,0,6,8,4,8
-Upupa epops,Upupidae,Insectivore,3,0,1,0,2
-Dinopium benghalense,Picidae,Insectivore,3,2,6,7,1
-Dendrocopos mahrattensis,Picidae,Insectivore,2,0,1,2,0
-Psilopogon zeylanicus,Megalaimidae,Frugivore,4,2,7,8,1
-Psilopogon haemacephalus,Megalaimidae,Frugivore,3,1,4,5,0
-Psittacula krameri,Psittaculidae,Frugivore,12,6,14,18,8
-Spilopelia chinensis,Columbidae,Granivore,8,2,5,7,3
-Spilopelia senegalensis,Columbidae,Granivore,6,0,1,0,2
-Streptopelia decaocto,Columbidae,Granivore,5,0,0,0,4
-Columba livia,Columbidae,Granivore,6,2,4,4,8
-Centropus sinensis,Cuculidae,Carnivore,4,2,5,6,2
-Eudynamys scolopaceus,Cuculidae,Frugivore,3,2,4,6,1
-Lanius cristatus,Laniidae,Carnivore,6,0,2,3,4
-Lanius schach,Laniidae,Carnivore,4,1,2,1,3
-Dicrurus macrocercus,Dicruridae,Insectivore,11,4,6,7,10
-Aegithina tiphia,Aegithinidae,Insectivore,5,2,6,8,1
-Dendrocitta vagabunda,Corvidae,Omnivore,5,2,6,8,3
-Corvus splendens,Corvidae,Omnivore,14,8,12,15,18
-Corvus macrorhynchos,Corvidae,Omnivore,4,1,3,5,2
-Mirafra affinis,Alaudidae,Granivore,12,0,2,0,6
-Cisticola juncidis,Cisticolidae,Insectivore,6,2,4,0,5
-Prinia inornata,Cisticolidae,Insectivore,8,3,5,2,6
-Prinia socialis,Cisticolidae,Insectivore,7,2,4,3,4
-Orthotomus sutorius,Cisticolidae,Insectivore,6,3,5,7,1
-Pellorneum ruficeps,Pellorneidae,Insectivore,8,0,4,9,0
-Argya striata,Leiothrichidae,Insectivore,9,0,3,6,0
-Copsychus fulicatus,Muscicapidae,Insectivore,14,0,3,2,8
-Copsychus saularis,Muscicapidae,Insectivore,5,2,4,6,2
-Oriolus kundoo,Oriolidae,Frugivore,4,1,8,11,2
-Cinnyris asiaticus,Nectariniidae,Nectarivore,9,3,7,8,4
-Leptocoma zeylonica,Nectariniidae,Nectarivore,11,4,8,9,2
-Cinnyris lotenius,Nectariniidae,Nectarivore,3,1,4,5,0
-Lonchura punctulata,Estrildidae,Granivore,16,4,8,6,12
-Lonchura striata,Estrildidae,Granivore,8,0,4,7,0
-Pavo cristatus,Phasianidae,Omnivore,4,0,1,0,3
-Motacilla flava,Motacillidae,Insectivore,0,4,3,0,8
-Motacilla citreola,Motacillidae,Insectivore,0,3,2,0,6
-Motacilla alba,Motacillidae,Insectivore,2,3,2,1,5
-Anthus rufulus,Motacillidae,Insectivore,7,0,1,0,6
+Scientific_Name_IOC_v14_1,Common_Name,Family,Trophic_Guild,Microhabitat_Stratum,CL1,CL2,CL3,CL4,CL5,CL6,Total_Abundance
+Hirundo rustica,Barn Swallow,Hirundinidae,Aerial Insectivore,Aerial over Wetland/Marsh,5,7,0,7,180,4,203
+Nettapus coromandelianus,Cotton Pygmy-Goose,Anatidae,Aquatic Herbivore,Floating Macrophyte,0,93,32,0,70,0,195
+Microcarbo niger,Little Cormorant,Phalacrocoracidae,Piscivore,Open Water / Riparian Snag,3,58,26,0,28,37,152
+Anastomus oscitans,Asian Openbill,Ciconiidae,Molluscivore / Aquatic Invertivore,Shallow Littoral / Marsh,15,39,20,0,4,29,107
+Dendrocygna javanica,Lesser Whistling Duck,Anatidae,Aquatic Herbivore/Invertivore,Open Water / Macrophyte,3,6,38,0,0,8,55
+Pycnonotus jocosus,Red-whiskered Bulbul,Pycnonotidae,Frugivore / Insectivore,Woodland / Scrub Margin,4,7,2,22,12,5,52
+Anhinga melanogaster,Oriental Darter,Anhingidae,Piscivore,Open Water / Riparian Snag,2,18,15,0,6,1,42
+Dicrurus macrocercus,Black Drongo,Dicruridae,Aerial/Terrestrial Insectivore,Open Scrub / Canopy Edge,5,7,5,6,5,14,42
+Bubulcus coromandus,Eastern Cattle Egret,Ardeidae,Terrestrial Insectivore,Grassland / Littoral Margin,4,7,3,8,2,16,40
+Gracupica contra,Indian Pied Starling,Sturnidae,Omnivore / Insectivore,Grassland / Littoral Margin,4,9,5,17,2,2,39
+Lonchura punctulata,Scaly-breasted Munia,Estrildidae,Granivore,Grassland / Reed Margin,3,6,4,0,2,24,39
+Pycnonotus cafer,Red-vented Bulbul,Pycnonotidae,Frugivore / Insectivore,Woodland / Scrub Margin,2,4,4,25,4,0,39
+Eremopterix griseus,Ashy-crowned Sparrow-Lark,Alaudidae,Granivore / Insectivore,Open Alluvial / Scrub Ground,7,0,0,30,0,0,37
+Argya striata,Jungle Babbler,Leiothrichidae,Terrestrial/Understory Insectivore,Woodland / Scrub Floor,4,5,3,20,0,4,36
+Porphyrio poliocephalus,Grey-headed Swamphen,Rallidae,Aquatic Herbivore,Floating Macrophyte / Marsh,0,21,5,0,6,4,36
+Spilopelia chinensis,Spotted Dove,Columbidae,Granivore,Woodland / Scrub Margin,6,3,4,12,6,4,35
+Threskiornis melanocephalus,Black-headed Ibis,Threskiorniidae,Aquatic Invertivore,Emergent Marsh / Littoral,9,2,13,0,3,7,34
+Metopidius indicus,Bronze-winged Jacana,Jacanidae,Aquatic Invertivore,Floating Macrophyte,0,15,5,4,7,0,31
+Merops orientalis,Asian Green Bee-eater,Meropidae,Aerial Insectivore,Scrub / Open Edge Perch,2,3,2,7,5,10,29
+Merops philippinus,Blue-tailed Bee-eater,Meropidae,Aerial Insectivore,Riparian / Marsh Edge Perch,5,5,6,0,3,7,26
+Vanellus cinereus,Gray-headed Lapwing,Charadriidae,Terrestrial/Littoral Invertivore,Wet Meadow / Marsh Margin,0,0,0,0,25,0,25
+Nycticorax nycticorax,Black-crowned Night Heron,Ardeidae,Piscivore / Invertivore,Littoral Woodland / Marsh,0,8,4,0,10,0,22
+Psittacula krameri,Rose-ringed Parakeet,Psittaculidae,Frugivore / Granivore,Deciduous Canopy,0,13,7,0,2,0,22
+Ardea intermedia,Medium Egret,Ardeidae,Piscivore / Invertivore,Shallow Littoral / Marsh,0,6,4,0,6,4,20
+Amandava amandava,Red Avadavat,Estrildidae,Granivore,Tall Grass / Marsh Margin,3,0,2,13,0,1,19
+Pycnonotus luteolus,White-browed Bulbul,Pycnonotidae,Frugivore / Insectivore,Understory Scrub,7,0,0,12,0,0,19
+Ardeola grayii,Indian Pond Heron,Ardeidae,Piscivore / Invertivore,Shallow Littoral / Marsh,2,4,2,0,1,8,17
+Egretta garzetta,Little Egret,Ardeidae,Piscivore / Invertivore,Shallow Littoral / Sandbar,1,3,6,0,7,0,17
+Halcyon smyrnensis,White-throated Kingfisher,Alcedinidae,Carnivore / Piscivore,Woodland-Marsh Edge Snag,2,6,2,0,3,4,17
+Vanellus indicus,Red-wattled Lapwing,Charadriidae,Terrestrial/Littoral Invertivore,Grassland / Littoral Margin,6,0,4,4,0,2,16
+Cypsiurus balasiensis,Asian Palm Swift,Apodidae,Aerial Insectivore,Aerial / Palm Canopy,6,4,0,0,5,0,15
+Dendrocygna bicolor,Fulvous Whistling Duck,Anatidae,Aquatic Herbivore/Invertivore,Open Water / Macrophyte,0,8,7,0,0,0,15
+Acridotheres tristis,Common Myna,Sturnidae,Omnivore,Open Margin / Edge,4,8,2,0,0,0,14
+Milvus migrans,Black Kite,Accipitridae,Carnivore / Scavenger,Aerial / Canopy Perch,0,4,2,0,5,3,14
+Anthus rufulus,Paddyfield Pipit,Motacillidae,Terrestrial Insectivore,Open Grassland / Dry Margin,8,0,0,5,0,0,13
+Hydrophasianus chirurgus,Pheasant-tailed Jacana,Jacanidae,Aquatic Invertivore,Floating Macrophyte,0,2,7,0,4,0,13
+Orthotomus sutorius,Common Tailorbird,Cisticolidae,Foliage Insectivore,Understory Scrub,3,2,2,0,2,4,13
+Prinia inornata,Plain Prinia,Cisticolidae,Foliage Insectivore,Emergent Reed / Grassland,2,7,1,0,2,1,13
+Tringa totanus,Common Redshank,Scolopacidae,Aquatic Invertivore,Shallow Littoral / Sandbar,12,0,0,0,0,0,12
+Hierococcyx varius,Common Hawk-Cuckoo,Cuculidae,Insectivore,Deciduous Canopy,2,2,1,4,2,0,11
+Charadrius dubius,Little Ringed Plover,Charadriidae,Aquatic Invertivore,Riparian Sandbar / Littoral,3,0,0,7,0,0,10
+Leptocoma zeylonica,Purple-rumped Sunbird,Nectariniidae,Nectarivore / Insectivore,Flowering Scrub / Canopy,1,3,2,0,2,2,10
+Oriolus xanthornus,Black-hooded Oriole,Oriolidae,Frugivore / Insectivore,Deciduous Canopy,0,4,1,2,1,1,9
+Acridotheres fuscus,Jungle Myna,Sturnidae,Omnivore / Frugivore,Woodland / Marsh Margin,2,0,2,4,0,0,8
+Amaurornis phoenicurus,White-breasted Waterhen,Rallidae,Omnivore / Invertivore,Emergent Marsh / Scrub,2,1,2,1,2,0,8
+Apus affinis,Little Swift,Apodidae,Aerial Insectivore,Aerial / Open,0,0,6,0,2,0,8
+Lonchura malacca,Tricolored Munia,Estrildidae,Granivore,Emergent Reed / Tall Grass,5,0,0,3,0,0,8
+Motacilla flava,Western Yellow Wagtail,Motacillidae,Terrestrial/Littoral Insectivore,Wet Meadow / Littoral Margin,0,0,0,8,0,0,8
+Actitis hypoleucos,Common Sandpiper,Scolopacidae,Aquatic Invertivore,Riparian Sandbar / Littoral,1,0,0,6,0,0,7
+Copsychus fulicatus,Indian Robin,Muscicapidae,Terrestrial Insectivore,Scrub / Dry Margin,2,0,0,4,0,1,7
+Lanius schach,Long-tailed Shrike,Laniidae,Terrestrial Insectivore,Scrub / Grassland Margin,4,0,0,0,0,3,7
+Mycteria leucocephala,Painted Stork,Ciconiidae,Piscivore / Aquatic Invertivore,Shallow Littoral / Marsh,1,2,2,0,0,2,7
+Pavo cristatus,Indian Peafowl,Phasianidae,Omnivore / Ground Forager,Woodland / Scrub Margin,4,0,0,3,0,0,7
+Psilopogon zeylanicus,Brown-headed Barbet,Megalaimidae,Frugivore,Deciduous Canopy,0,4,1,0,2,0,7
+Chrysomma sinense,Yellow-eyed Babbler,Paradoxornithidae,Foliage Insectivore,Tall Grass / Scrub Margin,2,0,0,4,0,0,6
+Lanius cristatus,Brown Shrike,Laniidae,Terrestrial Insectivore,Scrub / Grassland Margin,2,2,1,1,0,0,6
+Motacilla alba,White Wagtail,Motacillidae,Terrestrial/Littoral Insectivore,Open Shoreline / Sandbar,4,2,0,0,0,0,6
+Motacilla maderaspatensis,White-browed Wagtail,Motacillidae,Littoral Insectivore,Riparian / Open Shoreline,0,2,2,2,0,0,6
+Saxicola caprata,Pied Bushchat,Muscicapidae,Terrestrial Insectivore,Scrub / Grassland Margin,3,0,0,2,0,1,6
+Ardea alba,Great Egret,Ardeidae,Piscivore,Shallow Littoral / Marsh,0,0,0,0,3,2,5
+Columba livia,Rock Pigeon,Columbidae,Granivore,Open / Edge,0,5,0,0,0,0,5
+Corvus splendens,House Crow,Corvidae,Omnivore,Edge / Periphery,0,4,1,0,0,0,5
+Dendrocitta vagabunda,Rufous Treepie,Corvidae,Omnivore / Frugivore,Deciduous Canopy,1,2,0,0,2,0,5
+Euodice malabarica,Indian Silverbill,Estrildidae,Granivore,Dry Scrub / Grassland Margin,0,0,0,0,0,5,5
+Ardea cinerea,Grey Heron,Ardeidae,Piscivore,Shallow Littoral / Marsh,1,2,1,0,0,0,4
+Ardea purpurea,Purple Heron,Ardeidae,Piscivore,Emergent Reed Marsh,0,1,1,0,0,2,4
+Cinnyris asiaticus,Purple Sunbird,Nectariniidae,Nectarivore / Insectivore,Flowering Scrub / Canopy,2,2,0,0,0,0,4
+Copsychus saularis,Oriental Magpie-Robin,Muscicapidae,Terrestrial/Understory Insectivore,Littoral Woodland Understory,0,1,3,0,0,0,4
+Eudynamys scolopaceus,Asian Koel,Cuculidae,Frugivore / Insectivore,Deciduous Canopy,1,2,1,0,0,0,4
+Ixobrychus cinnamomeus,Cinnamon Bittern,Ardeidae,Piscivore / Invertivore,Emergent Reed Marsh,2,1,1,0,0,0,4
+Mirafra affinis,Jerdon's Bushlark,Alaudidae,Granivore / Insectivore,Scrub / Grassland Margin,2,0,0,2,0,0,4
+Pelargopsis capensis,Stork-billed Kingfisher,Alcedinidae,Piscivore / Carnivore,Littoral Woodland Canopy,0,2,1,0,1,0,4
+Tringa glareola,Wood Sandpiper,Scolopacidae,Aquatic Invertivore,Shallow Littoral / Marsh,2,0,0,2,0,0,4
+Cisticola juncidis,Zitting Cisticola,Cisticolidae,Foliage Insectivore,Grassland / Marsh Margin,2,0,0,1,0,0,3
+Copsychus malabaricus,White-rumped Shama,Muscicapidae,Understory Insectivore,Dense Woodland Understory,2,1,0,0,0,0,3
+Corvus macrorhynchos,Large-billed Crow,Corvidae,Omnivore,Woodland / Edge,0,3,0,0,0,0,3
+Gallinula chloropus,Eurasian Moorhen,Rallidae,Omnivore / Aquatic,Emergent Marsh,0,1,2,0,0,0,3
+Motacilla cinerea,Grey Wagtail,Motacillidae,Littoral Insectivore,Riparian / Shaded Bank,3,0,0,0,0,0,3
+Oriolus kundoo,Indian Golden Oriole,Oriolidae,Frugivore / Insectivore,Deciduous Canopy,0,1,0,1,1,0,3
+Tadorna ferruginea,Ruddy Shelduck,Anatidae,Omnivore / Grazer,Riparian Sandbar / Littoral,0,0,0,2,1,0,3
+Terpsiphone paradisi,Indian Paradise-Flycatcher,Monarchidae,Aerial/Foliage Insectivore,Littoral Woodland Understory,0,3,0,0,0,0,3
+Accipiter badius,Shikra,Accipitridae,Apex Carnivore,Woodland / Scrub Margin,0,0,1,1,0,0,2
+Clamator jacobinus,Pied Cuckoo,Cuculidae,Insectivore,Woodland / Scrub Margin,0,2,0,0,0,0,2
+Dinopium benghalense,Black-rumped Flameback,Picidae,Bark Insectivore,Littoral Woodland Trunk,0,2,0,0,0,0,2
+Ficedula albicilla,Taiga Flycatcher,Muscicapidae,Aerial/Foliage Insectivore,Woodland / Scrub Margin,0,0,0,2,0,0,2
+Himantopus himantopus,Black-winged Stilt,Recurvirostridae,Aquatic Invertivore,Shallow Littoral / Sandbar,0,0,0,0,2,0,2
+Pellorneum ruficeps,Puff-throated Babbler,Pellorneidae,Understory Insectivore,Littoral Woodland Floor,0,1,1,0,0,0,2
+Phylloscopus trochiloides,Greenish Warbler,Phylloscopidae,Foliage Insectivore,Deciduous Canopy,0,2,0,0,0,0,2
+Prinia socialis,Ashy Prinia,Cisticolidae,Foliage Insectivore,Understory Scrub / Reed,0,0,0,2,0,0,2
+Psilopogon haemacephalus,Coppersmith Barbet,Megalaimidae,Frugivore,Deciduous Canopy,0,1,1,0,0,0,2
+Sterna acuticauda,Black-bellied Tern,Laridae,Piscivore,Open Water / Sandbar,0,0,0,2,0,0,2
+Sterna aurantia,River Tern,Laridae,Piscivore,Open Water / Sandbar,0,1,1,0,0,0,2
+Ceryle rudis,Pied Kingfisher,Alcedinidae,Piscivore,Open Water / Aerial Hover,0,1,0,0,0,0,1
+Coracias benghalensis,Indian Roller,Coraciidae,Terrestrial Insectivore,Open Scrub / Canopy Edge,0,1,0,0,0,0,1
+Ixobrychus flavicollis,Black Bittern,Ardeidae,Piscivore / Invertivore,Emergent Reed / Wooded Bank,0,0,0,0,1,0,1
+Micropternus brachyurus,Rufous Woodpecker,Picidae,Bark Insectivore,Deciduous Canopy / Trunk,0,0,1,0,0,0,1
+Motacilla citreola,Citrine Wagtail,Motacillidae,Littoral Insectivore,Shallow Marsh / Littoral Margin,1,0,0,0,0,0,1
+Motacilla tschutschensis,Eastern Yellow Wagtail,Motacillidae,Terrestrial/Littoral Insectivore,Wet Meadow / Littoral Margin,0,0,0,0,1,0,1
+Ortygornis pondicerianus,Grey Francolin,Phasianidae,Omnivore / Ground Forager,Scrub / Grassland Margin,1,0,0,0,0,0,1
+Pernis ptilorhynchus,Oriental Honey Buzzard,Accipitridae,Insectivore / Carnivore,Deciduous Canopy,0,0,0,0,0,1,1
+Phaenicophaeus viridirostris,Blue-faced Malkoha,Cuculidae,Insectivore,Understory Scrub,0,0,0,1,0,0,1
