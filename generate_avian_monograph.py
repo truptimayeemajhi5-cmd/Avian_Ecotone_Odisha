@@ -227,7 +227,7 @@ add_styled_table(
 
 # Embed Composite Plates
 for img_path, leg in [
-    ("figures/Plate_1_Wetland_Specialists.png", "<b>Figure 2 | Wetland Specialists & Littoral Foragers.</b> Composite photographic vouchers (V-01 to V-05) documenting littoral marsh resting, shoreline kingfisher vigilance, macrophyte jacana foraging, juvenile night heron recruitment, and mudflat shorebird territoriality.")
+    ("figures/Plate_1_Wetland_Specialists.png", "<b>Figure 2 | Wetland Specialists & Littoral Foragers.</b> Composite photographic vouchers (V-01 to V-05) documenting littoral marsh resting, shoreline kingfisher vigilance, macrophyte jacana foraging, juvenile night heron recruitment, and mudflat shorebird territoriality."),
     ("figures/Plate_2_Canopy_Guilds.png", "<b>Figure 3 | Minor Forest Canopy & Scrub Margin Guilds.</b> Composite photographic vouchers (V-06 to V-15) illustrating aquatic-terrestrial trophic subsidies, reed-scrub granivores and weavers, canopy barbets, nectarivores, shrikes, and raptors.")
 ]:
     if os.path.exists(img_path):
