@@ -227,8 +227,8 @@ add_styled_table(
 
 # Embed Composite Plates
 for img_path, leg in [
-    ("figures/Plate_1_Wetland_Specialists.png", "<b>Figure 2 | Wetland Specialists & Littoral Foragers.</b> Composite photographic vouchers (V-01 to V-04, V-12, V-13) documenting floating-mat breeding recruitment, amphibian predation subsidies, and Oriental Darter riparian roosting."),
-    ("figures/Plate_2_Canopy_Guilds.png", "<b>Figure 3 | Minor Forest Canopy & Scrub Margin Guilds.</b> Composite photographic vouchers (V-05 to V-11, V-14, V-15) illustrating vertical niche partitioning across scrub larks, understory babblers, canopy barbets, orioles, and raptors.")
+    ("figures/Plate_1_Wetland_Specialists.png", "<b>Figure 2 | Wetland Specialists & Littoral Foragers.</b> Composite photographic vouchers (V-01 to V-05) documenting floating-mat breeding recruitment, amphibian predation subsidies, and Oriental Darter riparian roosting."),
+    ("figures/Plate_2_Canopy_Guilds.png", "<b>Figure 3 | Minor Forest Canopy & Scrub Margin Guilds.</b> Composite photographic vouchers (V-06 to V-15) illustrating vertical niche partitioning across scrub larks, understory babblers, canopy barbets, orioles, and raptors.")
 ]:
     if os.path.exists(img_path):
         story.append(PageBreak())
