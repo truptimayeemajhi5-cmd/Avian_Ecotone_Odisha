@@ -3,7 +3,6 @@ import pandas as pd
 from PIL import Image, ImageDraw
 
 VOUCHERS = [
-    VOUCHERS = [
     ("V-01", "139440.jpg", "Dendrocygna javanica", "Lesser Whistling Duck", "Littoral Grassland Margin", "Adult pair resting and vigilant in dense littoral marsh grass"),
     ("V-02", "139457.jpg", "Alcedo atthis", "Common Kingfisher", "Littoral Bank / Boulder", "Adult perched on shoreline boulder scanning littoral water"),
     ("V-03", "139450.jpg", "Hydrophasianus chirurgus", "Pheasant-tailed Jacana", "Macrophyte Fringe", "Breeding adult foraging on floating lily pads with elongated toes"),
@@ -19,7 +18,6 @@ VOUCHERS = [
     ("V-13", "139550.jpg", "Cinnyris asiaticus", "Purple Sunbird", "Woodland Understory", "Breeding male nectarivore perched in thorny shrub margin foliage"),
     ("V-14", "139855.jpg", "Psilopogon zeylanicus", "Brown-headed Barbet", "Deciduous Canopy", "Canopy frugivore perched along palm-woodland interface"),
     ("V-15", "139830.jpg", "Copsychus saularis", "Oriental Magpie-Robin", "Woodland Understory", "Adult male territorial perch bordering mango foliage"),
-]
 ]
 
 os.makedirs("data", exist_ok=True)
@@ -47,6 +45,6 @@ def build_plate(voucher_subset, out_path, cols=3):
         canvas.paste(im, (10 + c * 430, 10 + r * 325))
     canvas.save(out_path, dpi=(300, 300))
 
-build_plate([v for v in VOUCHERS if v[0] in ("V-01", "V-02", "V-03", "V-04", "V-12", "V-13")], "figures/Plate_1_Wetland_Specialists.png", cols=3)
-build_plate([v for v in VOUCHERS if v[0] not in ("V-01", "V-02", "V-03", "V-04", "V-12", "V-13")], "figures/Plate_2_Canopy_Guilds.png", cols=3)
+build_plate([v for v in VOUCHERS if v[0] in ("V-01", "V-02", "V-03", "V-04", "V-05")], "figures/Plate_1_Wetland_Specialists.png", cols=3)
+build_plate([v for v in VOUCHERS if v[0] not in ("V-01", "V-02", "V-03", "V-04", "V-05")], "figures/Plate_2_Canopy_Guilds.png", cols=3)
 print("SUCCESS: Synchronized data/voucher_catalog.csv (15 vouchers) and updated composite plates!")
